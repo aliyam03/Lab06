@@ -8,10 +8,17 @@ TEAM NAME
 library(tidyverse) 
 ```
 
+    ## Warning: package 'stringr' was built under R version 4.2.2
+
 ### Exercise 1
 
 ``` r
-# add code here
+df <- tribble(
+  ~date, ~count,
+  "1/1/2020", 15,
+  "2/1/2020", 20,
+  "3/1/2020", 22,
+)
 ```
 
 ### Exercise 2
